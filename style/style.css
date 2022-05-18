@@ -20,7 +20,7 @@ a {
   color: inherit;
 }
 .container {
-  max-width: 1150px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -135,12 +135,12 @@ border-radius: 40px;
 .main {
 }
 .super {
-  min-height: 604px;
+  max-height: 600px;
   background-image: url(../image/super_chair.svg);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-position: center;
   color: #ffffff;
+  background-color: #f13c6e;
 }
 .super__title {
   font-weight: 700;
@@ -160,4 +160,57 @@ max-width: 350px;
   background: #f13c6e;
   border: 2px solid #ffffff;
   border-radius: 40px;
+}
+.special {
+  padding-top: 80px;
+  margin-bottom: 40px;
+  background-color: #efefef;
+}
+.special__title {
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+margin-bottom: 40px;
+}
+.special__list {
+}
+.special__item {
+  background-color: #ffffff;
+  width: 295px;
+  height: 415px;
+  padding: 25px 1em 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.special__image {
+  width: 125px;
+  height: 166px;
+  margin: 0 auto;
+}
+.special__description {
+line-height: 20px;
+text-align: center;
+color: #333333;
+}
+.special__price {
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000;
+}
+.special__action {
+  background: #f13c6e;
+  border-radius: 30px;
+  width: 130px;
+  height: 35px;
+}
+.special__link {
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #ffffff;
 }
