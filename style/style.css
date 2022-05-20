@@ -86,7 +86,7 @@ ul {
   line-height: 19px;
   color: var(--color-black);
 }
-.feedback_action {
+.feedback__action {
   line-height: 16px;
   color: var(--color-black);
   margin-left: 40px;
